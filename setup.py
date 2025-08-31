@@ -18,7 +18,7 @@ if sys.platform != "win32":
 
 setup(
     name="sockstream",
-    version="1.0.1",
+    version="1.0.2",
     author="Ayam Maximilian",
     author_email="ayammaxmillian@gmail.com",
     description="A Python package for handling socket communications with advanced functionality",

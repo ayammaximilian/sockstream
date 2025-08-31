@@ -95,27 +95,6 @@ pip install uvloop  # Skip on Windows
 
 ## 🎯 Quick Start
 
-### Basic Server-Client Communication
-
-```python
-from sockstream import Server, Client
-
-# Start server
-server = Server(host='localhost', port=8080, max_connections=20, channel="chat")
-server.start()
-
-# Connect client
-client = Client(host='localhost', port=8080, channel='chat')
-
-@client.on('message')
-def handle_message(data):
-    print(f"Received: {data}")
-
-if client.connect():
-    client.emit('message', {'text': 'Hello, World!'})
-    client.disconnect()
-```
-
 ## 🔌 Enhanced Client Usage
 
 ### Basic Enhanced Client

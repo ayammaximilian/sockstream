@@ -19,9 +19,9 @@ from .security_handler import (
     Authenticator, SecurityLogger
 )
 
-__version__ = "1.0.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
+__version__ = "1.0.2"
+__author__ = "Ayam Maximilian"
+__email__ = "ayammaxmillian@gmail.com"
 
 __all__ = [
     'EnhancedClient', 'ClientConfig', 'ConnectionState',
